@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Archivo Black', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+
+}
+.button-all{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(230, 44, 75);
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.header{
+    background: #fddfe4;
+    /* height: 550px; */
+}
+.header-section{
+    max-width: 990px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.heder-content{
+    margin: 0 auto;
+    
+}
+.heder-content h1{
+    padding-top: 20%;
+    font-size:2.8rem;
+    font-weight: 800;
+    color: rgb(34, 31, 31);
+    
+}
+.heder-content p{
+    font-size: 15px;
+    color: rgb(97, 93, 84);
+}
+.heder-content img{
+    width: 400px;
+    height: 550px;
+}
+.main-section-content{
+    max-width: 990px;
+    margin: auto;
+    margin-top: 8%;
+    text-align: center;
+
+}
+.content-pictures{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+.content-pictur p{
+    margin-top: 40px;
+    /* height: 70px; */
+    font-size: 20px;
+    text-decoration: underline;
+
+
+}
+.pink-back{
+    background-color: rgb(252, 206, 238);
+    padding-top: 50px;
+    border-top-left-radius: 150px 150px;
+    border-top-right-radius: 150px 150px;
+}
+.light-back{
+    background-color: rgb(228, 250, 253);
+    padding-top: 50px;
+    border-top-left-radius: 150px 150px;
+    border-top-right-radius: 150px 150px;
+}
+.gray-back{
+    background-color: rgb(155, 141, 146);
+    padding-top: 50px;
+    border-top-left-radius: 150px 150px;
+    border-top-right-radius: 150px 150px;
+}
+.content-pictur img{
+    height: 250px;
+    
+}
+.deleavary{
+    margin-top: 50px;
+    background-color: rgb(199, 207, 191);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px;
+    gap: 10px;
+    border-radius: 10px;
+}
+.discount{
+    margin-top: 50px;
+    background-color: #fddfe4;
+}
+.dis-contner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+}
+.discount-content h2{
+    font-size: 30px;
+}
+.discount-content span{
+    color: rgb(243, 65, 124);
+
+}
+.discount-content{
+    margin-top: 30%;
+
+}
+.instagram-part{
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 8%;
+    
+}
+.instagrm-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-bottom: 10%;
+}
+.instagrm-img img{
+    width: 100%;
+
+}
+.contact{
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    max-width: 990px;
+    margin: 0 auto;
+    height: auto ;
+    border-radius: 10px;
+    
+}
+.contuct-content{
+    text-align: center;
+    padding: 70px;
+}
+.contuct-content p{
+    color: rgb(196, 165, 165);
+}
+.contuct-content input{
+    padding: 15px 25px;
+    font-size: 20px;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+}
+footer{
+    margin-top: 8%;
+    background-color: black;
+    height: 300px;
+   
+}
+.content-footer{
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+.content-footer span{
+    color: rgb(153, 39, 67);
+}
+.content-footer p{
+    font-size: 15px;    
+}
+.websit{
+    color: rgba(194, 173, 173, 0.575);
+}
